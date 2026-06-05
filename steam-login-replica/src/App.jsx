@@ -42,7 +42,7 @@ export default function App() {
 
             <div className={styles.check}>
             <input className={styles.checkButton} type="checkbox" name="" id="lembre-me" />
-            <p>Lembre-me</p>
+            <p>Lembre me</p>
            </div>
 
             <button
