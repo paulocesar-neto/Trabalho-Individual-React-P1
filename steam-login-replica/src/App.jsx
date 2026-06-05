@@ -38,8 +38,6 @@ export default function App() {
             </div>
             <input className = {styles.textBox}  type="password" value={senha} onChange={(s) => setSenha(s.target.value)} />
             
-            
-
             <div className={styles.check}>
             <input className={styles.checkButton} type="checkbox" name="" id="lembre-me" />
             <p>Lembre me</p>
