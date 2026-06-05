@@ -1,48 +1,180 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(35, 35, 36);
     flex-direction: row;
-    gap: 30rem;
-    height: 130px;
+    gap: 10rem;
+    height: 110px;
+}
+
+.steamLogo {
+
+    width: 200px;
+    margin-left: 100px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 1rem;
+    margin-right: 10rem;
+    color: #c6d4df;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.2s;
+    padding-bottom: 5px;
+
+}
+
+.loja {
+
+    color: rgb(23, 124, 255);
+}
+
+.linkInfo {
+    text-decoration: none;
+    color: white;
+}
+
+.linkInfo:hover {
+    color: #ffffff;
+}
+
+.instalar {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    margin-left: 27rem;
+    margin-bottom: 80px;
+    width: 130px;
+    height: 25px;
+    background-color: #5c7e10;
+    color: #e5e4dc !important;
+    padding: 6px 12px;
+    text-transform: none !important;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    
+}.instal:hover {
+    background-color: #799905;
+  
+}
+
+.iconInstall{
+    width: 20px;
 }
 
 .container2 {
     display: flex;
     justify-content: left;
     align-items: center;
-    background-color:#1b2838f1;
+    background-color: #1b2838f1;
     flex-direction: row;
-    
+
     height: 47px;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
-.buscaContainer{
+.buscaContainer {
     display: flex;
-    justify-content: right;
-    flex-direction: column;
+
+    flex-direction: row;
+    align-items: center;
     margin-left: 10rem;
+
 }
 
-.inputBuscar{
+.inputBuscar {
+
+    background-color: #32353c;
     height: 34px;
     width: 29rem;
+    outline-color: rgb(0, 117, 250);
+    color: white;
+    padding: 8px;
+    font-style: italic;
+    
+}.inputBuscar:hover {
+    border-color: rgba(0, 119, 255, 0.507);
+}.inputBuscar::placeholder{
+    color: #ffffff;
+    text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.1);
+}.inputBuscar:focus {
+    outline: #3e7b9e;
+    font-style: normal;
 }
 
-.p{
+.p {
     display: flex;
     justify-content: left;
     align-items: center;
     flex-direction: row;
     margin-left: 10rem;
-    gap: 2.5rem;
+    gap: 1rem;
 }
+
+.seta {
+    width: 12px
+}
+
+.seta:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 0.2s;
+}
+
+.iconSearch{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.search{
+  background-color: #188dd1;
+  border: none; 
+  padding: 6px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+  border-radius: 4px;
+}
+
+.iniciarSessão{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin-bottom: 80px;
+    font-size: 11px;
+   
+
+}
+.iniciarSessão a{
+    text-transform: lowercase;
+    text-decoration: none;
+    color: #c2bdbd;
+}.iniciarSessão a:hover{
+     color: #ffffff;
+}
+
+

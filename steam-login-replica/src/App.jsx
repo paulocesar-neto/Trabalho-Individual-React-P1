@@ -27,17 +27,22 @@ export default function App() {
         <div className={styles.loginContainer}>
 
           <div className={styles.textContainer}>
-
+            
+            <div className={styles.labelAzul}>
             <p className={styles.label}>INICIAR SESSÃO COM NOME DE USUÁRIO</p>
+            </div>
             <input className = {styles.textBox} type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
-
+            
+            <div className={styles.labelCinza}>
             <p className={styles.label}>SENHA</p>
+            </div>
             <input className = {styles.textBox}  type="password" value={senha} onChange={(s) => setSenha(s.target.value)} />
+            
             
 
             <div className={styles.check}>
-            <input className={styles.checkButton} type="checkbox" name="Lembre-me" id="Lembre-me" />
-             <p>Lembre-me</p>
+            <input className={styles.checkButton} type="checkbox" name="" id="lembre-me" />
+             <label htmlFor="lembre-me">Lembre-me</label>
            </div>
 
             <button
@@ -55,8 +60,8 @@ export default function App() {
           <div className={styles.qrCode}>
             <p className={styles.titleQR}>OU COM CÓDIGO QR</p>
             <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/Qr-code-ver-10.png" alt="qrCode" />
-            <p className={styles.txtQR}>Use o 
-              <a  className={styles.link}href="">aplicativo móvel do Steam </a> 
+            <p className={styles.txtQR}>Use o  
+              <a  className={styles.link}href=""> aplicativo móvel do Steam </a> 
               <br /> para iniciar a sessão com um 
               <br /> código QR</p>
           </div>
