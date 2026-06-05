@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('./assets/top-10-igr-steam-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.title{
+    display: flex;
+    width: 50%;
+    text-align: left;
+    color: white;
+    margin-bottom: 5rem;
+}
+
+.loginContainer {
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+
+    width: 50%;
+    height: 20rem;
+    background-color: #181a21;
+    border-radius: 9px;
+    
+    margin-bottom: 10rem;
+}
+
+.qrCode img {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+    gap: rem;
+    width: 14rem;
+    height: 13rem;
+    border-radius: 8px;
+}
+
+.titleQR {
+    margin-left: 15px;
+}
+
+.txtQR {
+
+    text-align: center;
+    margin-bottom: 50px;
+    margin-right: 15px;
+
+    color: white;
+    height: 8px;
+    font-size: medium;
+}
+
+
+.textContainer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    flex-direction: column;
+    gap: 8px;
+}
+
+.textBox {
+    width: 30rem;
+    height: 40px;
+    background-color: #32353c;
+    border-radius: 2px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 2rem;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: medium;
+    color: white;
+}.textBox:hover {
+    background-color: #292e37;
+}
+
+.label {
+
+    width: 100%;
+    text-align: left;
+    margin-left: 4rem;
+}
+
+.check {
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: left;
+    width: 87%;
+    gap: 8px;
+    color: rgb(199, 199, 199);
+}
+
+.checkButton {
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 1px solid #32353c;
+  background: #32353c;
+  transition: all 0.15s ease;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}.checkButton:hover{
+     background-color: #292e37;
+}
+
+.checkButton:checked {
+  background: #555555;
+  border-color: #444444;
+}.checkButton:hover{
+     background-color: #292e37;
+}
+.checkButton::after {
+  content: "";
+  width: 9px;
+  height: 5px;
+  border-left: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  transform: rotate(-45deg) translate(1px, -1px);
+  transition: all 0.15s ease;
+}
+.checkButton:checked::after {
+  border-color: #ffffff;
+}
+
+
+.button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: dodgerblue;
+    color: white;
+    border-radius: 4px;
+
+    width: 270px;
+    height: 50px;
+    margin-top: 1rem;
+
+}button:hover {
+ background: rgb(2,0,36);
+ background: linear-gradient(90deg, rgba(30,144,255,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.link {
+    color: white;
+    margin-top: 1rem
+}
