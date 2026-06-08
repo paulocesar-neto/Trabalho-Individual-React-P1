@@ -111,13 +111,12 @@
     background-color: #292e37;
 }
 
+/*texto que fica em cima do input de email e senha*/
 .label {
 
     width: 100%;
     text-align: left;
     margin-left: 4rem;
-    
-    
 }
 
 .labelAzul{
@@ -156,7 +155,6 @@
 
 .checkButton {
   appearance: none;
-  -webkit-appearance: none;
   cursor: pointer;
   display: flex;
   align-items: center;
